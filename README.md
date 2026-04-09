@@ -25,7 +25,7 @@ This Power BI project provides in-depth analysis and visualization of Formula 1 
 
 ### Main Pages (14 total)
 
-**1. Formula 1 Overview** (35 visualizations)
+**1. Formula 1 Overview**
 Main landing page featuring:
 - Total Races: 1,125
 - Total Drivers: 859
@@ -37,7 +37,7 @@ Main landing page featuring:
 - Constructor and Driver filter dropdowns
 - Race Circuit filter dropdown
 
-**2. Driver Performance** (47 visualizations)
+**2. Driver Performance**
 Comprehensive driver analytics with:
 - Top 5 driver portraits with team photos
 - Driver Points by Season - area chart showing historical performance
@@ -55,7 +55,7 @@ Comprehensive driver analytics with:
   - Fastest laps
   - Last win details
 
-**3. Constructor Insights** (34 visualizations)
+**3. Constructor Insights** 
 Team performance analysis:
 - Total Constructors: 212
 - Constructor ranking table with nationality and total wins
@@ -65,7 +65,7 @@ Team performance analysis:
 - Wins Count Analysis by Position - line chart showing win probability
 - Team car images (Ferrari, McLaren, Mercedes)
 
-**4. Races & Circuits** (32 visualizations)
+**4. Races & Circuits** 
 Race and circuit analysis featuring:
 - Total Circuits: 3,071
 - Total Races: 1,125
@@ -78,7 +78,7 @@ Race and circuit analysis featuring:
 
 **5. Drill-through Page: Races & Circuits by Year**
 Detailed year-specific analysis:
-- Selected year display (e.g., "You select a year: 1993")
+- Selected year display 
 - Total Races for selected year
 - Count of Circuits used
 - Races by Location - regional map with highlighted areas
@@ -120,10 +120,10 @@ Click on any visual element to filter related charts:
 - Pick a region on the map to filter by geography
 
 ### Visual Elements
-- 50 Interactive Buttons - Navigation and filter controls
-- 32 KPI Cards - Key performance indicators
-- 31 Shapes & Images - Team logos, driver photos, car images
-- 20 Slicers - Dynamic data filters
+- Interactive Buttons - Navigation and filter controls
+- KPI Cards - Key performance indicators
+- Shapes & Images - Team logos, driver photos, car images
+- Slicers - Dynamic data filters
 - Multiple Chart Types:
   - Line Charts: 3 (trend analysis)
   - Donut Charts: 3 (distribution analysis)
@@ -187,34 +187,6 @@ cd formula1-powerbi
    - Home tab → Refresh
    - Note: Data sources may need reconfiguration
 
-## Screenshots
-
-### 1. Main Dashboard - Formula 1 Overview
-Global statistics with interactive world map, top drivers ranking, points dynamics over 70+ years, and top constructors breakdown.
-
-### 2. Filters Panel
-Comprehensive filtering system with year slider (1950-2024), constructor dropdown, driver selection, and race circuit filters.
-
-### 3. Navigation Menu
-Left-side panel with clear filters button, filter toggle, page navigation, back button, and information access.
-
-### 4. Driver Performance Analytics
-Top 5 drivers with portraits, seasonal points progression, winner analysis by starting position, podium statistics, and detailed driver table.
-
-### 5. Driver Details Tooltip
-Click on any driver photo to see: birth date, current team, wins, podiums, career points, fastest laps, and last win information (example: Max Verstappen profile).
-
-### 6. Constructor Insights
-212 total constructors with ranking table, podium distribution, points breakdown, seasonal performance, and win analysis by position.
-
-### 7. Races & Circuits Overview
-3,071 total circuits, 1,125 races, interactive location map, top tracks by race count, dynamics over time, and best circuits for constructors.
-
-### 8. Drill-through Page - Year 1993
-Detailed analysis: 16 total races, 77 circuits count, regional race distribution map, quarterly breakdown, and race/points comparison.
-
-### 9. Interactive Features
-Drill-through demonstration showing tooltip on 1991 data point with 16 races count and navigation arrow for detailed view.
 
 ## Technical Details
 
@@ -224,10 +196,10 @@ Drill-through demonstration showing tooltip on 1991 data point with 16 races cou
 - **Relationships:** Star schema with proper key relationships
 
 ### Visualizations Breakdown
-- Action Buttons: 50
-- Card Visuals: 32
-- Shapes & Images: 53
-- Slicers: 20
+- Action Buttons
+- Card Visuals
+- Shapes & Images
+- Slicers
 - Charts: Line (3), Donut (3), Bar (2), Area (2), Column (2), Pie (1), Combo (1)
 - Maps: Filled Map (2), Shape Map (1)
 - Tables: 2
@@ -274,7 +246,6 @@ This dashboard analyzes Formula 1 data including:
 - **Filename:** `Formula1-Dashboard.pbix`
 - **Size:** ~9.4 MB
 - **Power BI Version:** Compatible with Power BI Desktop (2024+)
-- **Last Updated:** December 2024
 
 ## Usage Tips
 
