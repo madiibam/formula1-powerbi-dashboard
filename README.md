@@ -13,6 +13,44 @@ This Power BI project provides in-depth analysis and visualization of Formula 1 
 - **Race & Circuit Analysis** - Detailed race results, circuit statistics, and geographical insights
 - **Interactive Filtering** - Dynamic slicers and drill-through capabilities for custom analysis
 
+## Screenshots
+
+### 1. Main Dashboard - Formula 1 Overview
+![Main Dashboard](./screenshots/01-main-dashboard.png)
+Global statistics with interactive world map, top drivers ranking, points dynamics over 70+ years, and top constructors breakdown.
+
+### 2. Filters Panel
+![Filters Panel](./screenshots/02-filters-panel.png)
+Comprehensive filtering system with year slider (1950-2024), constructor dropdown, driver selection, and race circuit filters.
+
+### 3. Navigation Menu
+![Navigation Menu](./screenshots/03-navigation-menu.png)
+Left-side panel with clear filters button, filter toggle, page navigation, back button, and information access.
+
+### 4. Driver Performance Analytics
+![Driver Performance](./screenshots/04-driver-performance.png)
+Top 5 drivers with portraits, seasonal points progression, winner analysis by starting position, podium statistics, and detailed driver table.
+
+### 5. Driver Details Tooltip
+![Driver Tooltip](./screenshots/05-driver-tooltip.png)
+Click on any driver photo to see: birth date, current team, wins, podiums, career points, fastest laps, and last win information (example: Max Verstappen profile).
+
+### 6. Constructor Insights
+![Constructor Insights](./screenshots/06-constructor-insights.png)
+212 total constructors with ranking table, podium distribution, points breakdown, seasonal performance, and win analysis by position.
+
+### 7. Races & Circuits Overview
+![Races and Circuits](./screenshots/07-races-circuits.png)
+3,071 total circuits, 1,125 races, interactive location map, top tracks by race count, dynamics over time, and best circuits for constructors.
+
+### 8. Drill-through Page - Year 1993
+![Drill-through 1993](./screenshots/08-drill-through-1993.png)
+Detailed analysis: 16 total races, 77 circuits count, regional race distribution map, quarterly breakdown, and race/points comparison.
+
+### 9. Interactive Features
+![Interactive Features](./screenshots/09-interactive-features.png)
+Drill-through demonstration showing tooltip on 1991 data point with 16 races count and navigation arrow for detailed view.
+
 ## Dashboard Features
 
 ### Navigation System
@@ -186,44 +224,6 @@ cd formula1-powerbi
 3. **Refresh data (if needed):**
    - Home tab → Refresh
    - Note: Data sources may need reconfiguration
-
-## Screenshots
-
-### 1. Main Dashboard - Formula 1 Overview
-![Main Dashboard](./screenshots/01-main-dashboard.png)
-Global statistics with interactive world map, top drivers ranking, points dynamics over 70+ years, and top constructors breakdown.
-
-### 2. Filters Panel
-![Filters Panel](./screenshots/02-filters-panel.png)
-Comprehensive filtering system with year slider (1950-2024), constructor dropdown, driver selection, and race circuit filters.
-
-### 3. Navigation Menu
-![Navigation Menu](./screenshots/03-navigation-menu.png)
-Left-side panel with clear filters button, filter toggle, page navigation, back button, and information access.
-
-### 4. Driver Performance Analytics
-![Driver Performance](./screenshots/04-driver-performance.png)
-Top 5 drivers with portraits, seasonal points progression, winner analysis by starting position, podium statistics, and detailed driver table.
-
-### 5. Driver Details Tooltip
-![Driver Tooltip](./screenshots/05-driver-tooltip.png)
-Click on any driver photo to see: birth date, current team, wins, podiums, career points, fastest laps, and last win information (example: Max Verstappen profile).
-
-### 6. Constructor Insights
-![Constructor Insights](./screenshots/06-constructor-insights.png)
-212 total constructors with ranking table, podium distribution, points breakdown, seasonal performance, and win analysis by position.
-
-### 7. Races & Circuits Overview
-![Races and Circuits](./screenshots/07-races-circuits.png)
-3,071 total circuits, 1,125 races, interactive location map, top tracks by race count, dynamics over time, and best circuits for constructors.
-
-### 8. Drill-through Page - Year 1993
-![Drill-through 1993](./screenshots/08-drill-through-1993.png)
-Detailed analysis: 16 total races, 77 circuits count, regional race distribution map, quarterly breakdown, and race/points comparison.
-
-### 9. Interactive Features
-![Interactive Features](./screenshots/09-interactive-features.png)
-Drill-through demonstration showing tooltip on 1991 data point with 16 races count and navigation arrow for detailed view.
 
 ## Technical Details
 
